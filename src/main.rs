@@ -39,17 +39,18 @@ fn main() {
 
                 let mut value = String::from("");
 
-                let token_type = &name.local_name[..];
-
-                match token_type {
+                match &name.local_name as &str {
                     "string" => {
                         for a in attributes {
-                            if a.name.local_name == "translatable" {
-                                is_translatable = a.value.parse().unwrap();
-                            }
-                            if a.name.local_name == "name" {
-                                should_write = true;
-                                value = a.value;
+                            match &a.name.local_name as &str {
+                                "translatable" => {
+                                    is_translatable = a.value.parse().unwrap();
+                                },
+                                "name" => {
+                                    should_write = true;
+                                    value = a.value;
+                                },
+                                _ => {}
                             }
                         }
         
@@ -76,8 +77,7 @@ fn main() {
                     "item" => {
                         if is_plural {
                             println!("Found plural item");
-                            write_to_file(&output_file, "\n");
-                            write_to_file(&output_file, "plurals::");
+                            write_to_file(&output_file, "\nplurals::");
                             for a in attributes {
                                 if a.name.local_name == "quantity" {
                                     should_write = true;
@@ -89,7 +89,7 @@ fn main() {
 
                         }
                     }
-                    _ => println!("Unsupported token: {}", token_type)
+                    _ => println!("Unsupported token: {}", &name.local_name)
                 }
             }
             Ok(XmlEvent::Characters(ref string)) => {
