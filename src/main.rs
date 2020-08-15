@@ -45,7 +45,7 @@ fn main() {
                     "string" => {
                         for a in attributes {
                             if a.name.local_name == "translatable" {
-                                is_translatable = false;
+                                is_translatable = a.value.parse().unwrap();
                             }
                             if a.name.local_name == "name" {
                                 should_write = true;
