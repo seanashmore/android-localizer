@@ -67,12 +67,6 @@ fn main() {
                     }
                     "plurals" => {
                         is_plural = true;
-
-                        for a in attributes {
-                            if a.name.local_name == "name" {
-                                value = a.value;
-                            }
-                        }
                     }
                     "item" => {
                         if is_plural {
