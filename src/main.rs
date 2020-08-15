@@ -4,6 +4,7 @@ use std::fs::File;
 use std::io::BufReader;
 use std::io::prelude::*;
 use std::path::Path;
+use std::env;
 
 use xml::reader::{EventReader, XmlEvent};
 
@@ -12,12 +13,18 @@ fn write_to_file(mut output_file: &File, value: &str) {
 }
 
 fn main() {
-    let file = File::open("strings-ru.xml").unwrap();
+    let args: Vec<String> = env::args().collect();
+    println!("hey {:?}", args);
+
+    let input_file = String::from(&args[1]);
+    let output_file = String::from(&args[2]);
+
+    let file = File::open(&input_file).unwrap();
     let file = BufReader::new(file);
 
     let parser = EventReader::new(file);
 
-    let output_path = Path::new("output.csv");
+    let output_path = Path::new(&output_file);
     let display = output_path.display();
 
     let output_file = match File::create(&output_path) {
@@ -87,7 +94,6 @@ fn main() {
                     }
                     "item" => {
                         if is_plural {
-                            println!("Found plural item");
                             write_to_file(&output_file, "\nplurals::");
                             write_to_file(&output_file, &current_plurals_name);
                             write_to_file(&output_file, "::");
@@ -100,14 +106,13 @@ fn main() {
                                 }
                             }
                         } else if is_string_array {
-                            println!("Found string-array item");
                             write_to_file(&output_file, "\nstring-array::");
                             write_to_file(&output_file, &current_string_array_name);
                             write_to_file(&output_file, "::item");
                             should_write = true;                         
                         }
                     }
-                    _ => println!("Unsupported token: {}", &name.local_name)
+                    _ => {}
                 }
             }
             Ok(XmlEvent::Characters(ref string)) => {
@@ -116,8 +121,6 @@ fn main() {
                     continue;
                 }
 
-                println!("printing: {}", &string);
-
                 write_to_file(&output_file, ",\"");
                 write_to_file(&output_file, &string);
                 write_to_file(&output_file, "\"");
@@ -125,15 +128,13 @@ fn main() {
             Ok(XmlEvent::EndElement { name, .. }) => {
 
                 match &name.local_name as &str {
-                    //"string" => println!("End string"),
                     "plurals" => {
                         is_plural = false;
-                        println!("End plurals")
                     },
                     "string-array" => {
                         is_string_array = false;
                     }
-                    "resources" => println!("End file"),
+                    "resources" => {},
                     _ => {}
                 }
 
