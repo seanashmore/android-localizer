@@ -28,6 +28,11 @@ fn main() {
     let mut is_translatable = true;
     let mut should_write = false;
     let mut is_plural = false;
+    let mut is_string_array = false;
+
+    let mut current_plurals_name = String::from("");
+
+    let mut current_string_array_name = String::from("");
 
     write_to_file(&output_file, "field_name, english_translation, new_translation\n");
 
@@ -63,15 +68,29 @@ fn main() {
                         write_to_file(&output_file, &value);
                     }
                     "string-array" => {
-                        println!("string-array not supported yet")
+                        is_string_array = true;
+
+                        for a in attributes {
+                            if a.name.local_name == "name" {
+                                current_string_array_name = a.value;
+                            }
+                        }
                     }
                     "plurals" => {
                         is_plural = true;
+
+                        for a in attributes {
+                            if a.name.local_name == "name" {
+                                current_plurals_name = a.value;
+                            }
+                        }
                     }
                     "item" => {
                         if is_plural {
                             println!("Found plural item");
                             write_to_file(&output_file, "\nplurals::");
+                            write_to_file(&output_file, &current_plurals_name);
+                            write_to_file(&output_file, "::");
                             for a in attributes {
                                 if a.name.local_name == "quantity" {
                                     should_write = true;
@@ -80,7 +99,12 @@ fn main() {
                                     write_to_file(&output_file, &a.value);
                                 }
                             }
-
+                        } else if is_string_array {
+                            println!("Found string-array item");
+                            write_to_file(&output_file, "\nstring-array::");
+                            write_to_file(&output_file, &current_string_array_name);
+                            write_to_file(&output_file, "::item");
+                            should_write = true;                         
                         }
                     }
                     _ => println!("Unsupported token: {}", &name.local_name)
@@ -106,6 +130,9 @@ fn main() {
                         is_plural = false;
                         println!("End plurals")
                     },
+                    "string-array" => {
+                        is_string_array = false;
+                    }
                     "resources" => println!("End file"),
                     _ => {}
                 }
