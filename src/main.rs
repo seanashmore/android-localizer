@@ -27,6 +27,7 @@ fn main() {
 
     let mut is_translatable = true;
     let mut should_write = false;
+    let mut is_plural = false;
 
     write_to_file(&output_file, "field_name, english_translation, new_translation\n");
 
@@ -60,7 +61,35 @@ fn main() {
                         write_to_file(&output_file, "\n");
                         write_to_file(&output_file, &value);
                     }
-                    _ => {}
+                    "string-array" => {
+                        println!("string-array not supported yet")
+                    }
+                    "plurals" => {
+                        is_plural = true;
+
+                        for a in attributes {
+                            if a.name.local_name == "name" {
+                                value = a.value;
+                            }
+                        }
+                    }
+                    "item" => {
+                        if is_plural {
+                            println!("Found plural item");
+                            write_to_file(&output_file, "\n");
+                            write_to_file(&output_file, "plurals::");
+                            for a in attributes {
+                                if a.name.local_name == "quantity" {
+                                    should_write = true;
+                                    write_to_file(&output_file, &a.name.local_name);
+                                    write_to_file(&output_file, "::");
+                                    write_to_file(&output_file, &a.value);
+                                }
+                            }
+
+                        }
+                    }
+                    _ => println!("Unsupported token: {}", token_type)
                 }
             }
             Ok(XmlEvent::Characters(ref string)) => {
@@ -69,9 +98,25 @@ fn main() {
                     continue;
                 }
 
+                println!("printing: {}", &string);
+
                 write_to_file(&output_file, ",\"");
                 write_to_file(&output_file, &string);
                 write_to_file(&output_file, "\"");
+            }
+            Ok(XmlEvent::EndElement { name, .. }) => {
+
+                match &name.local_name as &str {
+                    //"string" => println!("End string"),
+                    "plurals" => {
+                        is_plural = false;
+                        println!("End plurals")
+                    },
+                    "resources" => println!("End file"),
+                    _ => {}
+                }
+
+        
             }
             Err(e) => {
                 println!("Error: {}", e);
