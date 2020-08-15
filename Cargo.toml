@@ -1,0 +1,12 @@
+[package]
+name = "localizer"
+version = "0.1.0"
+authors = ["Sean Ashmore <seanashmore@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+roxmltree = "0.13.0"
+find_folder = "0.3.0"
+xml-rs = "0.8"

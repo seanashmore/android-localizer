@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="launcher_label" translatable="false">@string/app_name</string>
+
+    <plurals name="unread_msg_header">
+        <item quantity="one">%d unread message</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+
+    <!-- New group chat options strings -->
+    <plurals name="participant_limit_error">
+        <item quantity="one">You can\'t select more than one contact</item>
+        <item quantity="other">You can\'t select more than %d participants</item>
+    </plurals>
+    <string name="personal_invites_circle_name" translatable="false">PERSONAL_INVITES</string>
+    <string name="just_leave">Leave</string>
+    <string name="burn_mine_and_leave">Leave and burn my messages</string>
+    <string name="burn_mine_and_leave_and_delete">Leave, burn my messages &amp; delete</string>
+    <string name="just_disband">Disband</string>
+    <string name="burn_mine_and_disband">Disband &amp; burn my messages</string>
+    <string name="burn_mine_and_disband_and_delete">Disband, burn my messages &amp; delete</string>
+
+    <string name="burn_mine_and_delete">Burn my messages &amp; delete</string>
+
+    <!-- Untranslated String literals -->
+    <string name="burn_my_messages">Burn my messages</string>
+    <string name="account">Account</string>
+    <string name="permission_denied">Permission denied. Cannot continue sharing</string>
+    <string name="gallery_denied">Cannot continue sending gallery picture</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="select_file">Select File</string>
+    <string name="download_failed">Image download failed</string>
+    <string name="all">All</string>
+    <string name="missed">Missed</string>
+    <string name="conference" translatable="false">Conference</string>
+    <string name="you">You</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="participants">Participants</string>
+    <string name="viaSMS">Invite Via SMS</string>
+    <string name="viaEmail">Invite Via Email</string>
+    <string name="few_minutes_to_arrive">. SMS May take a few minutes to arrive</string>
+    <string name="invtation_to_collaborate">Invitation to collaborate</string>
+    <string name="collab_with">You have been invited to collaborate with</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="personal_invites">Personal Invites</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_you_sure_remove_contact">Are you sure you want to remove this contact?</string>
+    <string name="are_you_sure_remove_from_group">Are you sure you want to remove %s from the group?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_name">Enter a new name for this contact</string>
+    <string name="tap_for_info">Tap for group info</string>
+    <string name="no_members_left">There are currently no other members in this group to message</string>
+    <string name="cannot_invite_while_offline">Cannot invite members to group while offline</string>
+    <string name="cannot_rename_while_offline">Cannot rename group while offline</string>
+    <string name="broadcasts">Channels</string>
+    <string name="recents">Recents</string>
+    <string name="messages">Messages</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="valid_number">Please enter a valid phone number</string>
+
+    <string name="country_code">Choose country code</string>
+    <string name="cannot_perform_while_offline">Cannot perform operation while offline</string>
+
+    <string name="remove">Remove</string>
+
+    <string name="deactivate">Deactivate</string>
+    <string name="editName">Edit Name</string>
+
+
+    <!-- Contact burn options dialog strings -->
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="select_operation_burn_all">All Communications</string>
+
+
+    <string name="select_operation_burn_calls">Calls</string>
+
+
+    <!-- Contact burn options dialog toasts -->
+    <string name="select_operation_burn_messages">Messages</string>
+    <string name="are_you_sure_disband">Are you sure you want to disband this group?</string>
+    <string name="select_operation_burn_all_toast">All call and message history has been burned with this contact</string>
+
+
+    <string name="select_operation_burn_calls_toast">All call history has been burned with this contact</string>
+    <string name="select_operation_burn_messages_toast">All message history has been burned with this contact</string>
+    <string name="edit_group_name"><u>Edit</u></string>
+    <string name="account_name" translatable="false">@string/app_name</string>
+
+    <string name="authentication_passcode">Passcode</string>
+    <string name="authentication_domain">User Domain</string>
+    <string name="lockscreen_forgotten">Reset PIN</string>
+    <string name="enter_your_pin">Enter your PIN</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="enter_current_pin">Please Enter Your Current PIN</string>
+    <string name="enter_new_pin">Please Enter a New PIN</string>
+    <string name="confirm_new_pin">Please Confirm Your New PIN</string>
+    <string name="pin_confirm_not_match">PIN and Confirm PIN Did Not Match</string>
+    <string name="verify_fingerprint_or_pin">Verify Fingerprint or Enter Your PIN</string>
+
+    <string name="fingerprint_unlock">Fingerprint Unlock</string>
+    <string name="touch_sensor_confirm_fingerprint">Touch sensor to confirm fingerprint</string>
+    <string name="empty_conference">Empty Conference</string>
+    <string name="empty_messages">No Messages</string>
+
+    <string name="empty_calls">No Calls</string>
+    <string name="message_hint">Type your message&#8230;</string>
+
+    <string name="dialog_burn_conversation_title">Burn Conversation?</string>
+    <string name="dialog_burn_message_history">Burn message history</string>
+
+    <string name="dialog_burn_conversation_message">Do you want to burn all messaging activity with this contact?</string>
+    <string name="dialog_burn_group_message">Do you want to burn all your messages from this group chat?</string>
+    <string name="confirm_burn">Burn Message?</string>
+    <string name="confirm_burn_msg">Are you sure you want to burn this message?</string>
+    <string name="confirm_burn_multiple">Burn Messages?</string>
+    <string name="confirm_burn_msg_multiple">Are you sure you want to burn these messages?</string>
+
+    <string name="confirm_burn_call">Burn Call?</string>
+    <string name="confirm_burn_call_history">Burn call history</string>
+    <string name="confirm_burn_call_msg">Are you sure you want to burn this call?</string>
+
+    <string name="confirm_accept">Accept</string>
+    <string name="confirm_reject">Reject</string>
+    <string name="notification_new_msg_title" translatable="false">@string/launcher_label</string>
+    <string name="notification_missed_call_title" translatable="false">@string/launcher_label</string>
+    <string name="notification_new_msg_body">You have a new private message!</string>
+    <string name="notification_new_broadcast_body">You have a new broadcast message!</string>
+
+    <string name="notification_joined_new_group_title" translatable="false">@string/launcher_label</string>
+
+    <string name="notification_joined_new_group_body">You have joined a group chat!</string>
+    <string name="settings_general">General</string>
+    <string name="settings_auto_burn">Auto-Burn</string>
+    <string name="settings_lockscreen">Security Settings</string>
+
+    <string name="settings_passcode_enabled">Enable PIN</string>
+    <string name="settings_passcode_set">Reset Application PIN</string>
+
+    <string name="settings_user">Alias</string>
+    <string name="settings_customer">Customer</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_build">Build</string>
+
+    <string name="settings_hidden">Hidden</string>
+
+    <string name="settings_developer">Developer options</string>
+    <string name="settings_show_device_id">Device ID</string>
+    <string name="developer_general" translatable="false">@string/settings_general</string>
+    <string name="developer_connection">Connection</string>
+    <string name="developer_options_enabled">Developer Options Enabled</string>
+    <string name="developer_screenshot_enabled">Enable Screenshots</string>
+
+    <string name="developer_stun">Enable STUN</string>
+
+    <string name="developer_turn">Enable TURN</string>
+    <string name="action_report_bug"> Submit Report</string>
+
+    <string name="auto_delete_title">Auto-Delete</string>
+    <string name="auto_delete_summary">Set messages, broadcasts and calls to auto-delete from your device after a specified time</string>
+    <string name="lowest">Lowest</string>
+
+    <string name="call_status_incoming">Incoming Call</string>
+
+    <string name="call_status_connecting">Connecting…</string>
+    <string name="call_missed">Missed Call</string>
+    <string name="call_end">End call</string>
+
+    <string name="mute_on">Mute</string>
+    <string name="mute_off">Unmute</string>
+    <string name="mute">Mute</string>
+    <string name="deactivate_guest">Deactivate</string>
+    <string name="speaker">Speaker</string>
+    <string name="hold">Hold</string>
+    <string name="offline_operation_unavailable">Operation requires the device to be online.</string>
+    <string name="call_answer_label">Accept</string>
+    <string name="call_reject_label">Decline</string>
+    <string name="clear_logs_confirm_message">This will remove all record of your call and message history from your device and your contacts\' devices.\n\nAre you sure you want to continue?</string>
+
+    <string name="clear_call_logs_confirm_message">This will remove all record of your call history from your device and your contacts\' devices.\n\nAre you sure you want to continue? </string>
+
+    <string name="call">Call</string>
+    <string name="already_on_call_call_contact">Unable to call contact as you are already on a call</string>
+    <string name="calls">Calls</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="send">Send</string>
+    <string name="call_status_contacting">Attempting to contact user…</string>
+    <string name="call_status_ringing">User\'s device is ringing…</string>
+    <string name="call_status_ongoing">Secure Call Connected</string>
+    <string name="call_status_contact_busy">User is busy. Unable to connect secure call</string>
+
+    <string name="call_status_contact_rejected">User is unable to take your call</string>
+    <string name="call_status_you_rejected">You rejected the call</string>
+    <string name="call_status_reconnecting">Call reconnecting</string>
+    <string name="call_status_contact_terminated">Other party has ended the secure call</string>
+    <string name="call_status_you_terminated">You have ended the secure call</string>
+    <string name="call_status_connection_down">Call disconnected</string>
+    <string name="call_status_you_held">You put the call on hold</string>
+    <string name="call_status_contact_held">Other party has put the call on hold</string>
+    <string name="conference_status_ongoing">Conference Call Connected</string>
+    <string name="conference_status_waiting">Setting up Conference Call…</string>
+    <string name="conference_status_reconnecting">Conference Call Reconnecting…</string>
+    <string name="conference_status_destroyed">Conference Call Ended</string>
+
+    <string name="conference_invite_owner">You must be the owner of this call to invite more members</string>
+    <string name="xmpp_summary_leaveconf">Leave Conference</string>
+    <string name="xmpp_summary_joinconf">Join Conference</string>
+    <string name="message_archival">Message Archival</string>
+    <string name="conversation_archived">Conversation Archived</string>
+
+    <string name="this_call_is_being_recorded">This call is being recorded</string>
+    <string name="dialog_reset_passcode">Change PIN</string>
+
+    <string name="reset_passcode_unauthorised">Your Administrator has not yet reset your PIN.</string>
+    <string name="error_device_compromised">Installation Error: 641 Please Contact Support</string>
+    <string name="online">Online</string>
+
+    <string name="last_active">Last active</string>
+    <string name="contact_removed">Contact has been removed</string>
+
+    <string name="msg_status_queued">Queued</string>
+
+    <string name="msg_status_sent">Sent</string>
+    <string name="msg_status_delivered">Delivered</string>
+
+    <string name="msg_status_read">Read</string>
+
+    <string name="already_on_call_create_conference">Unable to create conference as you are already on a call</string>
+
+    <string name="already_on_call_join_conference">Unable to join conference as you are already on a call</string>
+    <string name="select_participants">Select one or more participants</string>
+    <string name="recent_calls">Recent Calls</string>
+    <string name="waiting_for_network">Waiting for network…</string>
+
+    <string name="connected">Connected</string>
+    <string name="camera">Camera</string>
+
+    <string name="gallery">Gallery</string>
+
+    <string name="enter_group_name">Enter a group name</string>
+
+    <string name="Invite_Contacts">Invite Contacts</string>
+    <string name="no_private_contacts">You don\'t have any private contacts yet.</string>
+    <string name="contacts_will_appear_here">Private Contacts Will Appear Here</string>
+
+    <string name="get_started_contacts">Get started by sending some invites.</string>
+    <string name="favourites">Favourites</string>
+
+    <string name="no_favourites">To add a contact to Favourites, simply tap the ⭐️ on their user detail screen.</string>
+
+    <string name="burn_communications">Burn Communications</string>
+    <string name="mute_chat_notifications">Mute Chat Notifications</string>
+    <string name="common_circles">Circles in Common</string>
+    <string name="none">None</string>
+
+    <string name="add_caption">Add a caption…</string>
+    <string name="message">Message</string>
+    <string name="conference_call">Conference Call</string>
+    <string name="conversation_type">Conversation Type</string>
+
+    <string name="image">Image</string>
+    <string name="video">Video</string>
+    <string name="pdf_file">.pdf</string>
+    <string name="gc_burnallmessages">Your messages have been burned</string>
+    <string name="gc_you_have_left_and_cannot_message">As you have left this group, you can no longer send or receive messages.</string>
+    <string name="gc_disbanded_and_cannot_message">This group has been disbanded, so you can no longer send or receive messages.</string>
+    <string name="gc_removed_and_cannot_message">You have been removed from this group, so you can no longer send or receive messages.</string>
+    <string name="group_info_leave_group">Leave Group</string>
+    <string name="group_info_title">Group Info</string>
+
+    <!-- Group Chat Snackbars -->
+    <string name="group_edit_title">Edit Group</string>
+
+    <!-- Group Chat Disbanded/Left Messages -->
+    <string name="group_info_message">Message</string>
+    <string name="group_info_call">Call</string>
+    <string name="group_info_view">View</string>
+    <string name="group_info_make_admin">Make Admin</string>
+    <string name="group_admins_update_failed">Failed to make member admin. Please try again.</string>
+
+    <!-- Group Info -->
+    <string name="group_info_remove">Remove From Group</string>
+    <string name="login_terms">By verifying your account, you accept the &lt;br&gt;&lt;a href=&quot;https://portal.saltdna.com/static/statements/saltdna/terms.html&quot;&gt;Terms &amp; Conditions&lt;/a&gt;</string>
+    <string name="call_outgoing">Outgoing Call</string>
+    <string name="call_incoming">Incoming Call</string>
+    <string name="date">Date</string>
+    <string name="id">ID</string>
+    <string name="participants_title">Participants</string>
+
+    <string name="mini_fab_message">Message / Group Chat</string>
+    <string name="mini_fab_call">Call / Conference</string>
+    <string name="login_invalid_domain">Invalid domain name!</string>
+    <string name="login_empty_passcode">No passcode entered!</string>
+    <string name="invite">Invite</string>
+    <string name="disband">Disband</string>
+    <string name="leave">Leave</string>
+    <string name="burn_delete_title">Burn + Delete?</string>
+
+    <string name="burn_all_my_messages">Burn all my messages…</string>
+    <string name="missed_call">Missed Call</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="outgoing_call">Outgoing Call</string>
+    <string name="you_added">"You added "</string>
+    <string name="group_has_been_disbanded">Group has been disbanded</string>
+    <string name="you_updated_group">You updated the group</string>
+    <string name="group_updated">%s has updated the group</string>
+    <string name="group_chat_name">Group Chat Name</string>
+    <string name="tap_to_join">Tap to join</string>
+    <string name="clear_logs">Burn all History</string>
+    <string name="you_are_offline">You are offline</string>
+
+    <string name="no_messages">No messages</string>
+    <string name="group_admin">Group Admin</string>
+    <string name="already_invited">Already invited</string>
+    <string name="contact_permission_required">Permisson required to access contact info</string>
+    <string name="no_contact_email">No Email for Selected Contact</string>
+    <string name="conference_invite">Conference Call Invite</string>
+    <string name="cannot_start_call">Cannot start a call without RECORD_AUDIO permission</string>
+    <string name="has_been_disbanded">" has been disbanded"</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="other">other</string>
+    <string name="others">others</string>
+    <string name="version">Version</string>
+    <string name="build">Build</string>
+    <string name="upgrade_upgrade_available">Upgrade Available</string>
+    <string name="upgrade_upgrade_available_details">An upgrade is available to download and install.</string>
+    <string name="upgrade_upgrade_now_option">Upgrade now</string>
+    <string name="upgrade_upgrade_not_now_option">Not now thanks</string>
+    <string name="upgrade_current_version">Current Version: </string>
+    <string name="upgrade_minimum_version">Minimum Version: </string>
+
+    <!-- Upgrade dialogs and notifications -->
+    <string name="upgrade_now">Upgrade Now</string>
+    <string name="permissions_cannot_start_call">Permission denied. Cannot start call</string>
+    <string name="permissions_cannot_start_video_call">Permission denied. Cannot enable video</string>
+
+    <string name="group_disbanded">Group Disbanded</string>
+    <string name="no_server_connection">Unable to connect to server. Please check your connection and try again</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="reset_pin">Please contact your Administrator to request a PIN reset</string>
+    <string name="offline_group_send">Cannot send group messages while offline</string>
+
+
+    <!-- Permissions dialogs -->
+    <string name="select_burn_operation">Select Burn Operation</string>
+    <string name="read_by">Read By</string>
+    <string name="delivered_to">Delivered To</string>
+    <string name="sent_to">Sent To</string>
+    <string name="incorrect_passcode">Incorrect Passcode</string>
+    <string name="limit_reached">Limit Reached</string>
+    <string name="limit_reached_message">You have entered an incorrect password too many times. Your app will now be reset.</string>
+    <string name="OK">OK</string>
+    <string name="attempts_left">"Attempts left: "</string>
+    <string name="pass_wipe_summary">After 10 incorrect PIN attempts, the app data will be deleted. You will have to re-verify.</string>
+    <string name="reset_app">Reset App</string>
+    <string name="submit_crashes">Submit Crashes</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="remote_logging">Remote Logging</string>
+    <string name="privacy">Privacy</string>
+    <string name="return_to_call">Tap to return to call screen</string>
+    <string name="cant_fetch_circles">Unable to retrieve circles while offline</string>
+    <string name="cant_fetch_contacts">Unable to retrieve contacts</string>
+    <string name="pending_invites">Pending Invites</string>
+    <string name="pending_invites_description">You have pending invites that have not yet been accepted or rejected.</string>
+    <string name="invite_successful">Invite successful</string>
+    <string name="invite_not_successful">Invite was not successful, please try again.</string>
+    <string name="clear_message_logs_confirm_message">This will remove all record of your message history from your device and your contacts devices. Are you sure you want to continue?</string>
+    <string name="maximum_participants_reached">Maximum participants reached</string>
+    <string name="select_participants_selector">Select Participant(s)</string>
+    <string name="invite_participants">Invite Participants</string>
+    <string name="passcode_forced">Your administrator requires you to use a PIN with this application. Please enter a 5 digit pin…</string>
+    <string name="passcode_new">Please enter a new 5 digit PIN</string>
+    <string name="passcode_new_confirm">Please confirm your new PIN</string>
+    <string name="passcode_new_retry">PINs don\'t match, please retry</string>
+    <string name="please_deselect">Please deselect</string>
+
+    <string name="at">" at "</string>
+    <string name="mute_notifications">Mute Notifications</string>
+    <string name="users">Users</string>
+    <string name="circles">Circles</string>
+    <string name="call_detail_title">Call Detail</string>
+
+    <string name="verify_finger">Verify with fingerprint</string>
+    <string name="burn_messages">Burn Messages</string>
+    <string name="location">Location</string>
+    <string name="location_send">Send Location</string>
+    <string name="alias_nickname_optional">Alias / Nickname (Optional)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="browse_contacts">Browse Contacts</string>
+    <string name="invite_a_private_user">Invite a Private User</string>
+    <string name="communicate_with_private_users">Communicate with private users on a one-to-one basis.</string>
+    <string name="email_address">Email Address</string>
+    <string name="tap_to_enable">Tap to enable</string>
+    <string name="pending">Pending</string>
+    <string name="or">Or</string>
+    <string name="conversation_image_transition" translatable="false">conversation_image_transition</string>
+    <string name="enable_fingerprint">Enable Fingerprint</string>
+    <string name="no_pending_invites">No Pending Invites</string>
+    <string name="received_invites">Received Invites</string>
+    <string name="pin_saved">PIN Saved</string>
+    <string name="valid_address">Please enter a valid email address</string>
+
+    <!-- Image transitions -->
+    <string name="havent_entered_name">You haven\'t entered a new name</string>
+    <string name="no_location">Sorry we don\'t have your location yet</string>
+    <string name="your_location">Your Location</string>
+    <string name="no_fingerprints">No fingerprints are stored on this device</string>
+    <string name="need_lockscreen_enabled">Lockscreen must be enabled on this device in order to use fingerprint authentication</string>
+
+
+    <string name="share_location">Share your location</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="share_file_using">Share file using…</string>
+    <string name="conversation_call_tones">Conversation Call Tones</string>
+
+    <string name="refine_location">Drag marker to refine location</string>
+    <string name="file_too_large">File is too large</string>
+    <string name="no_application">No application to handle this file</string>
+    <string name="no_file_permission">You do not have permission to send this file</string>
+    <string name="leave_confirm_title">Are you sure you wish to leave?</string>
+
+    <string name="leave_confirm_message">Leaving will randomly assign a new admin. Disband will kick all members from the group.</string>
+    <string name="icn_created">%1$s created \'%2$s\'</string>
+
+    <string name="icn_others_renamed">%1$s has renamed the group to \'%2$s\'</string>
+    <string name="icn_you_renamed">You renamed the group to \'%1$s\'</string>
+    <string name="icn_contacts_joined">%1$s joined \'%2$s\'</string>
+
+    <!-- Dialog: Leave/Disband a Group -->
+    <string name="icn_you_left">You left</string>
+    <string name="icn_you_were_removed">You were removed</string>
+
+    <!-- ICNs -->
+    <string name="icn_you_removed">You removed %1$s</string>
+    <string name="icn_members_left">%1$s left</string>
+    <string name="icn_members_removed">%1$s were removed from the group</string>
+    <string name="icn_member_removed">%1$s was removed from the group</string>
+    <string name="icn_screenshot">%1$s took a screenshot</string>
+    <string name="icn_recording">%1$s: Recording Screen</string>
+    <string name="service_suspended">Your service has been suspended. If you would like to restart the service, please contact support.</string>
+    <string name="service_suspended_contact_support">Contact Support</string>
+    <string name="installation_out_of_date">Your installation is out of date. To continue using the application you must upgrade to the latest version.</string>
+
+    <string name="gif_type" translatable="false">GIF</string>
+    <string name="no_invitations">No Invitations</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="revoke">Revoke</string>
+    <string name="Resend">Resend</string>
+    <string name="attachment_type_file">File</string>
+
+    <string name="attachment_type_pdf" translatable="false">PDF</string>
+
+    <string name="contact_unavailable">Contact Unavailable</string>
+
+    <string name="no_results">No Results</string>
+    <string name="incorrect_time_description">Your device time is incorrect and as such the app may not work correctly. Please adjust your date and time settings. We recommend using the automatic settings.</string>
+    <string name="incorrect_time_title">Date/Time Settings</string>
+    <string name="file_load_failed">Could not load file</string>
+    <string name="last_active_just_now">Just now</string>
+    <string name="settings_video_quality">Video Quality</string>
+
+    <string name="recording">Recording</string>
+    <string name="recording_failed">Recording Failed</string>
+    <string name="send_audio_message">Send Audio Message?</string>
+    <string name="sending">Sending</string>
+
+    <string name="audio_message_tap">Tap and hold the microphone to record an audio message</string>
+
+    <string name="sending_image">Sending image…</string>
+
+    <string name="attachment_type_audio">Audio Message</string>
+    <string name="group_message_text_format" formatted="false" translatable="false">%1$s - %2$s</string>
+    <string name="file">File</string>
+    <string name="download_before_forward">Please download attachment before forwarding</string>
+    <string name="chats_font_size">Font Size</string>
+    <string name="chats_show_time">Show Message Timestamps</string>
+    <string name="chats_title">Chats</string>
+    <string name="no_broadcast_messages_available_for_this_channel">No broadcast messages available for this channel</string>
+    <string name="enable_optimisation">Enable optimisation</string>
+    <string name="outbound_packet_loss_placeholder">Outbound Packet Loss: 0.0%</string>
+
+    <string name="outbound_packet_loss">Outbound Packet Loss:</string>
+    <string name="do_not_ask_again">Do not ask again</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="general">General</string>
+    <string name="call_state">Call State</string>
+    <string name="compress_images">Compress Images</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="broadcast_info">Broadcast Info</string>
+    <string name="failed_stats">Failed to find stats</string>
+    <string name="no_connection_available">No connection available</string>
+    <string name="broadcast_burned">Broadcast message has been burned</string>
+    <string name="info">Info</string>
+    <string name="bc_edit">Edit</string>
+    <string name="bc_burn">Burn</string>
+    <string name="bc_copy">Copy</string>
+    <string name="bc_burn_post_title">Burn Post?</string>
+    <string name="bc_burn_post_message">Burning a post will remove it from all devices. Are you sure you want to burn this post?</string>
+    <string name="title">Title</string>
+    <string name="refresh_stats">Refreshing stats</string>
+    <string name="new_post">New Post</string>
+    <string name="contact_not_available">This user is no longer in your contact list and cannot be contacted.</string>
+    <string name="information">Information</string>
+    <string name="announcement">Announcement</string>
+    <string name="warning">Warning</string>
+    <string name="alert">Alert</string>
+    <string name="forward">Forward</string>
+    <string name="forwarded_broadcast">Forwarded Broadcast</string>
+
+
+    <string name="please_download_attachment">Please download attachment</string>
+
+    <string name="export_chat_history">Export Chat History</string>
+
+    <string name="export_send_via">Send chat via...</string>
+
+    <string name="media">Media</string>
+    <string name="recent_media">Recent Media</string>
+    <string name="show_all">Show All</string>
+    <string name="messages_lowercase">messages</string>
+    <string name="message_lowercase">message</string>
+    <string name="your_plural">your</string>
+    <string name="your_singular">your</string>
+    <string name="forwarded">forwarded</string>
+    <string name="forward_messages_from">forwarded messages from</string>
+    <string name="you_forwarded_messages_from">You forwarded messages from</string>
+    <string name="you_forwarded">You forwarded</string>
+    <string name="terminate_call_dialog_title">Leave or terminate call?</string>
+
+    <string name="terminate_call_dialog_msg">Do you want to end the call for everyone?</string>
+    <string name="terminate_call_dialog_term_optn">Terminate Call</string>
+    <string name="terminate_call_dialog_leave_optn">Leave Call</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="auto">Auto</string>
+    <string name="retry">Retry</string>
+    <string name="broadcast_alerts">Broadcast Alerts</string>
+    <string name="broadcast_alert_bypass_dnd_request">In order to ensure you always receive Broadcast Alerts we would like permission to bypass your \'Do not Disturb\' settings when appropriate.</string>
+    <string name="override_do_not_disturb">Override Do not Disturb</string>
+    <string name="tap_and_fetch_roster">Tap to Clear and Fetch Roster</string>
+    <string name="in_app_pop">In App Pop</string>
+    <string name="recv_msg_pop">Receive Message Pop</string>
+    <string name="address_book_access">Address Book Access</string>
+    <string name="microphone_access">Microphone Access</string>
+    <string name="telephone_access">Telephone Access</string>
+    <string name="camera_access">Camera Access</string>
+    <string name="storage_access">Storage Access</string>
+    <string name="location_access">Location Access</string>
+    <string name="address_book_access_desc">"In order to invite contacts, %s needs permission to access your device's address book. This will only ever be used to allow you to invite users you may already have in your device's address book.  "</string>
+    <string name="microphone_access_desc">In order to make and receive Phone Calls or send Voice Messages, %s needs permission to access your device\'s microphone. On Android the permission is called \"Record Audio\". All applications that have voice capabilities must request this permission.  \%s does not, and will not, use a device\'s microphone for anything other than Phone Calls, Voice, and Video Messages. No audio will ever be stored on our server.</string>
+    <string name="telephone_access_desc">In order to manage incoming and outgoing phone calls, and interactions with other voice enabled applications, %s needs permission to access your device\'s telephone features.</string>
+    <string name="camera_access_desc">In order to take photos with this application, %s needs permission to access your camera. This will only ever be used to allow you to take and send photos from within the application.</string>
+    <string name="storage_access_desc">In order to browse and send images or files already stored on your device, %s needs permission to access your gallery.</string>
+    <string name="location_access_desc">In order to share your location, %s needs permission to access your device\'s GPS.</string>
+    <string name="next">Next</string>
+    <string name="got_it">Got it!</string>
+    <string name="recently_contacted">Recently Contacted</string>
+    <string name="forward_to">Forward to...</string>
+    <string name="publish_changes">Publish Changes?</string>
+    <string name="publish_changes_message">Would you like to publish the changes made to this post? Recipients will not be notified of changes made.</string>
+    <string name="publish">Publish</string>
+    <string name="by">By</string>
+    <string name="message_info">Message Info</string>
+    <string name="invitations">Invitations</string>
+    <string name="audio">Audio</string>
+    <string name="unread_messages">Unread Messages</string>
+    <string name="message_id">Message ID</string>
+    <string name="bc_title_limit">Titles are limited to 24 characters</string>
+    <string name="missed_conference_call">Missed Conference Call</string>
+    <string name="incoming_conference_call">Incoming Conference Call</string>
+    <string name="outgoing_conference_call">Outgoing Conference Call</string>
+    <string name="conference_info">Conference Info</string>
+
+    <!-- Guest Invites -->
+    <string name="call_info">Call Info</string>
+    <string name="tap_for_more_info">Tap for more info</string>
+    <string name="conference_status_incoming">Incoming Conference Call</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="warning_no_service">Unable to connect to service</string>
+    <string name="try_again_contact_admin">Please try again later or contact your administrator.</string>
+    <string name="end_gsm_to_continue">Please end GSM call to continue this call</string>
+    <string name="decrypting_from_store">Decrypting attachment from storage, please wait.</string>
+    <string name="data_saver_warning">Data Saver is enabled on your device and may prevent you from receiving messages and calls while %s is in the background.  You can avoid this by disabling Data Saver or by whitelisting %s for unrestricted data usage.</string>
+    <string name="setting_requires_restart">Changing this setting requires an app restart to take effect</string>
+    <string name="send_to">Send to...</string>
+    <string name="profile">Profile</string>
+    <string name="verify_desc">Please enter the Domain and Passcode from your invitation to verify your account</string>
+    <string name="verify">Verify</string>
+    <string name="no_verification_email">No Verification email?</string>
+    <string name="introducing_favourite_contacts">Introducing Favourite Contacts</string>
+    <string name="introducing_favourite_contacts_desc_1">You can now add favourite contacts within your contact list. To favourite a contact simply tap the ⭐️ on the user details page.</string>
+    <string name="introducing_favourite_contacts_desc_2">Once a user has been added to your favourites you can view them in contacts under the favourites tab.</string>
+    <string-array name="burn_settings_name">
+        <item>@string/disabled</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+        <item>1 Day</item>
+        <item>2 Days</item>
+        <item>5 Days</item>
+    </string-array>
+    <string-array name="burn_settings_value">
+        <item>-1</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>432000</item>
+    </string-array>
+
+    <string-array name="delete_settings_name">
+        <item>@string/disabled</item>
+        <item>1 Day</item>
+        <item>3 Days</item>
+        <item>5 Days</item>
+        <item>1 Week</item>
+        <item>1 Month</item>
+        <item>3 Months</item>
+    </string-array>
+    <string-array name="delete_settings_value">
+        <item>-1</item>
+        <item>86400</item>
+        <item>259200</item>
+        <item>432000</item>
+        <item>604800</item>
+        <item>2678400</item>
+        <item>8035200</item>
+    </string-array>
+    <string-array name="video_quality_settings_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="video_quality_settings_names">
+        <item>QVGA</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+    <string-array name="chat_font_settings">
+        <item>Small</item>
+        <item>Regular</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="chat_font_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="broadcast_severity_levels">
+        <item>Information</item>
+        <item>Warning</item>
+        <item>Alert</item>
+    </string-array>
+    <string name="general_notification_channel">General Notifications</string>
+    <string name="ongoing_call_notification_channel">Ongoing Call Notifications</string>
+    <string name="message_notification_channel">Message Notifications</string>
+    <string name="call_notification_channel">Call Notifications</string>
+    <string name="incoming_call_notification_channel">Incoming Call Notifications</string>
+    <string name="broadcast_alert_notification_channel">Broadcast Alert Notifications</string>
+    <string name="backup_restore_notification_channel">Backup and Restore Notifications</string>
+    <string name="backup">Backup</string>
+    <string name="backing_up_messages">Backing up your messages...</string>
+    <string name="uploading_backup">Uploading your backup...</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="restoring_backup_notification_text">Restoring your message backup…</string>
+    <string name="app_backup">App Backup</string>
+    <string name="last_backup">Last Backup</string>
+    <string name="backup_description">Back up messages and broadcasts. As each backup is a snapshot of the application content, burns will not affect existing backups. You can restore backups when you reinstall the application.</string>
+    <string name="backup_time_label">Time:</string>
+    <string name="utc_with_brackets">(UTC)</string>
+    <string name="backup_size_label">Size:</string>
+    <string name="backup_size_format">%.2f MB</string>
+    <string name="backup_button_label">Back Up</string>
+    <string name="backing_up">Backing up</string>
+    <string name="backup_build_progress_format">Backing up: %1$d of %2$d items</string>
+    <string name="backup_upload_progress_format">Uploading: %1$.2f MB of %2$.2f MB (%3$d%%)</string>
+    <string name="backup_build_failed">Failed to create your backup. Please try again.</string>
+    <string name="backup_upload_failed">Failed to upload your backup. Please try again.</string>
+    <string name="backup_complete">Backup complete</string>
+    <string name="restore_backup_title">Restore Backup?</string>
+    <string name="restoring_backup">Restoring Backup</string>
+    <string name="restore_backup_intro">We have detected a backup associated with this alias. Would you like to restore this backup to your device? Skipping this step will mean that the backup will be overwritten with any further communications.</string>
+    <string name="skip">Skip</string>
+    <string name="restoring_backup_text">Please wait while we restore your backup.</string>
+    <string name="restoring_backup_error">There was an error when trying to restore your backup, please ensure that you have an Internet connection and your password is correct.</string>
+    <string name="restoring_backup_decryption_error">There was an error whilst decrypting your backup. Please try again, ensuring your password is correct.</string>
+    <string name="manual_backups_enabled">Manual Backups Enabled</string>
+    <string name="manual_backups_enabled_text">Your administrator has enabled manual backups. You can now backup your broadcast and message content by accessing "settings" within the application. Burns will not affect content that has been backed up.</string>
+    <string name="auto_backups_enabled">Auto &amp; Manual Backups Enabled</string>
+    <string name="auto_backups_enabled_text">Your administrator has enabled automatic &amp; manual backups. Your broadcast and message content will automatically back up every 24 hours. You can also manually back up your content by accessing "settings" within the application. Burns will not affect content that has been backed up.</string>
+    <string name="set_backup_password">Set Backup Password</string>
+    <string name="set_backup_password_text">Any backups you make require a password to restore. If this password is changed in future you will not be able to access any previous backups.</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="set_password">Set Password</string>
+    <string name="enter_backup_password">Enter Backup Password</string>
+    <string name="enter_backup_password_text">Please enter your backup password to restore.</string>
+    <string name="downloading_backup">Downloading…</string>
+    <string name="applying_backup">Applying backup…</string>
+    <string name="password_required">Please enter a password</string>
+    <string name="password_and_confirmation_dont_match">Your password and confirmation do not match</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="get_backup_details_error">Could not retrieve last backup details</string>
+    <string name="skip_restoration_title">Skip Restoration?</string>
+    <string name="skip_restoration_message">If you skip restoration, you will not be able to restore any previous backups. All future backups will overwrite existing backups.</string>
+    <string name="existing_backups_title">Existing Backups</string>
+    <string name="reset_password_confirmation_message">If you change your backup password, you will no longer be able to access any previous backups. Are you sure you wish to proceed?</string>
+    <string name="no_apps_to_open_file">No apps could be found to open this file.</string>
+    <string name="export">Export</string>
+    <string name="export_confirm_title">Export Attachment</string>
+    <string name="export_confirm_message">The attachment will be saved to your local gallery. Do you wish to continue?</string>
+
+    <string name="unknown">Unknown</string>
+
+    <string name="password_request_title">Password Protected PDF</string>
+    <string name="password_request_message">This PDF is password protected. Please enter the password to view the file</string>
+    <string name="cannot_open">Cannot open attachment while recording audio</string>
+
+    <string name="select_messages">Select one or more messages</string>
+    <string name="cant_send_message_while_multiselect_enabled">Can\'t send message while multiselect is being used.</string>
+    <string name="enter_new_duress_pin">Enter your new duress PIN</string>
+    <string name="duress_cannot_match_pass">Duress PIN cannot be the same as your current passcode</string>
+    <string name="confirm_duress_pin">Please confirm your new duress PIN</string>
+
+    <string name="update">Update</string>
+
+</resources>

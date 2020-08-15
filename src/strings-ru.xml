@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //New group chat options strings
+    <string name="just_leave">Оставить сообщения</string>
+        
+    <string name="burn_mine_and_leave">Оставить сообщения, но уничтожить мои</string>
+    <string name="burn_mine_and_leave_and_delete">Покинуть группу и уничтожить мои сообщения</string>
+    <string name="just_disband">Расформировать</string>
+        
+    <string name="burn_mine_and_disband">Расформировать и уничтожить мои сообщения</string>
+        
+    <string name="burn_mine_and_disband_and_delete">Расформировать,  уничтожить мои сообщения и удалить</string>
+    <string name="burn_mine_and_delete">Уничтожить мои сообщения и удалить</string>
+    <string name="burn_my_messages">Уничтожить мои сообщения</string>
+    <string name="account">Аккаунт</string>
+
+    //Untranslated string literals
+    <string name="permission_denied">Доступ закрыт. Переадресация запрещена</string>
+    <string name="gallery_denied">Не удается продолжить отправку изображения галереи </string>
+    <string name="select_picture">Выбрать изображение</string>
+    <string name="select_file">Выбрать файл</string>
+    <string name="download_failed">Не удалось загрузить файл</string>
+    <string name="all">Все</string>
+    <string name="missed">ПРОПУЩЕННЫЕ</string>
+    <string name="conference">КОНФЕРЕНЦИИ</string>
+    <string name="you">Вы</string>
+    <string name="group_chat">Групповой чат</string>
+    <string name="participants">Участники</string>
+    <string name="viaSMS">Пригласить через SMS</string>
+    <string name="viaEmail">Пригласить по e-mail</string>
+    <string name="few_minutes_to_arrive">. Доставка SMS может занять несколько минут</string>
+    <string name="invtation_to_collaborate">Приглашение к сотрудничеству</string>
+    <string name="collab_with">Вы получили приглашение от</string>
+    <string name="accept">Принять</string>
+    <string name="reject">Отклонить</string>
+    <string name="personal_invites">Персональные приглашения</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="are_you_sure_remove_contact">Вы действительно хотите удалить этот контакт?</string>
+    <string name="are_you_sure_remove_from_group">Вы уверены, что хотите удалить %s из группы?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="new_name">Введите новое имя для этого контакта</string>
+    <string name="tap_for_info">Нажмите для просмотра информации о группе</string>
+    <string name="no_members_left">Участники группы отсутствуют для отправки сообщения</string>
+    <string name="cannot_invite_while_offline">Невозможно пригласить участников в группу в автономном режиме</string>
+    <string name="cannot_rename_while_offline">Невозможно переименовать группу в автономном режиме</string>
+    <string name="broadcasts">Каналы</string>
+    <string name="recents">Недавние</string>
+    <string name="messages">Сообщения</string>
+    <string name="contacts">Контакты</string>
+    <string name="settings">Настройки</string>
+    <string name="valid_number">Введите действительный номер телефона</string>
+    <string name="country_code">Выберите код страны</string>
+    <string name="cannot_perform_while_offline">Не удается выполнить операцию в автономном режиме</string>
+    <string name="remove">Переместить</string>
+    <string name="deactivate">Деактивировать</string>
+    <string name="editName">Изменить имя</string>
+        
+    <string name="search">Поиск</string>
+    <string name="clear">Очистить</string>
+    <string name="select_operation_burn_all">Всю историю</string>
+    <string name="select_operation_burn_calls">Все вызовы</string>
+    <string name="select_operation_burn_messages">Сообщения</string>
+    <string name="are_you_sure_disband">Вы действительно хотите расформировать эту группу?</string>
+    <string name="select_operation_burn_all_toast">Вся история вызовов и сообщений с этим контактом уничтожена </string>
+    <string name="select_operation_burn_calls_toast">История вызовов с этим контактом  уничтожена</string>
+    <string name="select_operation_burn_messages_toast">Вся история сообщений с этим контактом уничтожена</string>
+    <string name="edit_group_name"><u>Изменить название группы</u></string>
+    <string name="account_name">Название аккаунта</string>
+    <string name="authentication_passcode">Код доступа</string>
+    <string name="authentication_domain">Пользовательский домен</string>
+    <string name="lockscreen_forgotten">Сбросить PIN-код</string>
+    <string name="enter_your_pin">Введите текущий PIN-код</string>
+    <string name="incorrect_pin">Неверный PIN-код</string>
+    <string name="enter_current_pin">Пожалуйста, введите текущий PIN-код</string>
+    <string name="enter_new_pin">Пожалуйста, введите новый PIN-код</string>
+    <string name="confirm_new_pin">Пожалуйста, подтвердите новый PIN-код</string>
+    <string name="pin_confirm_not_match">Введенные PIN-коды не совпадают</string>
+    <string name="verify_fingerprint_or_pin">Проверка</string>
+    <string name="fingerprint_unlock">Разблокировать отпечатком пальца</string>
+    <string name="touch_sensor_confirm_fingerprint">Используйте отпечаток пальца для разблокировки</string>
+    <string name="empty_conference">Пустая конференция</string>
+    <string name="empty_messages">Нет сообщений</string>
+    <string name="empty_calls">Нет вызовов</string>
+    <string name="message_hint">Введите текст...</string>
+    <string name="dialog_burn_conversation_title">Уничтожить переписку?</string>
+    <string name="dialog_burn_message_history">Уничтожить историюпереписки?</string>
+    <string name="dialog_burn_conversation_message">Вы хотите уничтожить переписку с этим контактом?</string>
+    <string name="dialog_burn_group_message">Вы хотите уничтожить все ваши сообщения в этой группе?</string>
+    <string name="confirm_burn">Уничтожить сообщение?</string>
+    <string name="confirm_burn_msg">Вы действительно хотите уничтожить сообщение?</string>
+    <string name="confirm_burn_multiple">Уничтожить сообщения?</string>
+    <string name="confirm_burn_msg_multiple">Вы действительно хотите уничтожить сообщения?</string>
+    <string name="confirm_burn_call">Уничтожить данные о  звонке?</string>
+    <string name="confirm_burn_call_history">Уничтожить историюзвонков?</string>
+    <string name="confirm_burn_call_msg">Вы действительно хотите уничтожить данные о звонке?</string>
+    <string name="confirm_accept">Принять</string>
+    <string name="confirm_reject">Отклонить</string>
+    <string name="notification_new_msg_body">У вас есть новое личное сообщение!</string>
+    <string name="notification_joined_new_group_body">Вы присоединились к групповому чату</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_auto_burn">Уничтожение сообщений</string>
+    <string name="settings_lockscreen">Параметры безопасности</string>
+    <string name="settings_passcode_enabled">Включить вход по PIN-коду</string>
+    <string name="settings_passcode_set">Сброс PIN-кода приложения</string>
+    <string name="settings_user">Никнейм</string>
+    <string name="settings_customer">Клиент</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_build">Релиз</string>
+    <string name="settings_hidden">Скрытый</string>
+    <string name="settings_developer">Меню разработчика</string>
+    <string name="developer_connection">Соединение</string>
+    <string name="developer_options_enabled">Параметры разработчика включены</string>
+    <string name="developer_screenshot_enabled">Включить скриншоты</string>
+    <string name="developer_stun">Включить STUN</string>
+    <string name="developer_turn">Включить TURN</string>
+    <string name="action_report_bug">Отправить отчет</string>
+
+    <string-array name="burn_settings_name">
+        <item>@string/disabled</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>5 дня</item>
+    </string-array>
+        
+    <string-array name="burn_settings_value"> 
+        <item>-1</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>432000</item>
+    </string-array>
+
+    <string name="auto_delete_title">Уничтожение всей истории</string>
+    <string name="auto_delete_summary">Установить время автоматического уничтожения истории всх сообщений, каналов и звонков на этом устройстве</string>
+    <string-array name="delete_settings_name">
+        <item>Неактивный</item>
+        <item>1 день</item>
+        <item>3 дня</item>
+        <item>5 дней</item>
+        <item>1 неделя</item>
+        <item>1 месяц</item>
+        <item>3 месяца</item>
+    </string-array>
+
+    <string-array name="delete_settings_value">
+        <item>-1</item>
+        <item>86400</item>
+        <item>259200</item>
+        <item>432000</item>
+        <item>604800</item>
+        <item>2678400</item>
+        <item>8035200</item>
+    </string-array>
+
+    <string name="call_status_incoming">Входящий вызов</string>
+    <string name="call_status_connecting">Подключение ...</string>
+    <string name="call_missed">Пропущенный вызов</string>
+    <string name="call_end">Конец вызова</string>
+    <string name="mute_on">Без звука</string>
+    <string name="mute_off">Включить звук</string>
+    <string name="mute">Отключить</string>
+    <string name="deactivate_guest">Деактивировать</string>
+    <string name="speaker">Динамик</string>
+    <string name="hold">Удержать</string>
+    <string name="offline_operation_unavailable">Операция требует, чтобы устройство было в сети.</string>
+    <string name="call_answer_label">Ответить</string>
+    <string name="call_reject_label">Отклонить</string>
+    <string name="clear_logs_confirm_message">Это приведет к удалению всех записей вашего вызова и истории сообщений с вашего устройства и устройств ваших контактов контактов. Вы уверены, что хотите продолжить?</string>
+    <string name="clear_call_logs_confirm_message">Этоприведет к удалению всейистории вызовов с вашегоустройства и устройствваших контактов. Выуверены, что хотитепродолжить?</string>
+    <string name="call">Вызов</string>
+    <string name="already_on_call_call_contact">Не удается вызвать контакт, поскольку вызов уже активен</string>
+    <string name="calls">Вызовы</string>
+    <string name="cancel">Отмена</string>
+    <string name="send">Отправить</string>
+    <string name="call_status_contacting">Попытка связаться с пользователем...</string>
+    <string name="call_status_ringing">Пользовательское устройство звонит...</string>
+    <string name="call_status_ongoing">Защищенный вызов активен</string>
+    <string name="call_status_contact_busy">Пользователь занят. Не удалось подключить защищенный вызов</string>
+    <string name="call_status_contact_rejected">Пользователь не может принять ваш вызов</string>
+    <string name="call_status_you_rejected">Вы отклонили вызов</string>
+    <string name="call_status_reconnecting">Переадресация вызовов</string>
+    <string name="call_status_contact_terminated">Собеседник завершил безопасный вызов</string>
+    <string name="call_status_you_terminated">Вы завершили безопасный вызов</string>
+    <string name="call_status_connection_down">Вызов разъединен</string>
+    <string name="call_status_you_held">Вы поставили вызов в режим удержания</string>
+    <string name="call_status_contact_held">Собеседник поставил вызов в режим удержания</string>
+    <string name="conference_status_ongoing">Конференц-связь подключена</string>
+    <string name="conference_status_waiting">Настройка конференц-вызова...</string>
+    <string name="conference_status_reconnecting">Повторное соединение конференц-связи...</string>
+    <string name="conference_status_destroyed">Конференц-связь завершена</string>
+    <string name="conference_invite_owner">Вы должны быть владельцем этого звонка, чтобы пригласить больше участников</string>
+    <string name="xmpp_summary_leaveconf">Покинуть конференцию</string>
+    <string name="xmpp_summary_joinconf">Регистрация конференции</string>
+    <string name="message_archival">Архив сообщений</string>
+    <string name="conversation_archived">Архив новостей</string>
+    <string name="this_call_is_being_recorded">Этот вызов записывается</string>
+    <string name="dialog_reset_passcode">Сбросить PIN-код</string>
+    <string name="reset_passcode_unauthorised">Ваш администратор не сбросил PIN-код</string>
+    <string name="error_device_compromised">Ошибка установки: 641 Пожалуйста, обратитесь в службу поддержки</string>
+    <string name="online">В сети</string>
+    <string name="last_active">Последнее посещение</string>
+    <string name="contact_removed">Контакт удален</string>
+
+    <plurals name="unread_msg_header">
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="other">%d Непрочитанные сообщения</item>
+        <item quantity="many">%d Непрочитанные сообщения</item>
+        <item quantity="few">%d Непрочитанные сообщения</item>
+            
+    </plurals>
+
+    <string name="msg_status_queued">Очередь</string>
+    <string name="msg_status_sent">Отправлено</string>
+    <string name="msg_status_delivered">Доставлено</string>
+    <string name="msg_status_read">Прочитано</string>
+    <string name="already_on_call_create_conference">Невозможно создать конференцию, поскольку у вас есть активный вызов</string>
+    <string name="already_on_call_join_conference">Невозможно присоединиться к  конференции, поскольку у вас есть активный вызов</string>
+
+    <plurals name="participant_limit_error">
+             
+        <item quantity="one">Вы не можете выбрать более чем %d участников</item>
+        <item quantity="other">Вы не можете выбрать более% d участников</item>
+        <item quantity="few">Вы не можете выбрать более% d участников</item>
+        <item quantity="many">Вы не можете выбрать более% d участников</item>
+            
+    </plurals>
+
+    <string name="select_participants">Выберите одного или нескольких участников</string>
+    <string name="recent_calls">Последние вызовы</string>
+    <string name="waiting_for_network">Ожидание сети...</string>
+    <string name="connected">Соединение установлено</string>
+    <string name="camera">Камера</string>
+    <string name="gallery">Галерея</string>
+    <string name="enter_group_name">Введите имя группы</string>
+    <string name="Invite_Contacts">Пригласить контакты</string>
+    <string name="no_private_contacts"> У вас еще нет личных контактов. </string>
+    <string name="contacts_will_appear_here">Здесь появятся приватные контакты</string>
+    <string name="get_started_contacts">Начните с отправки некоторых приглашений.</string>
+    <string name="favourites">Избранное</string>
+    <string name="no_favourites">Чтобы добавить контакт в Избранное, просто нажмите ⭐️ на их экране информации о пользователе.</string>
+    <string name="burn_communications">Уничтожить историю</string>
+    <string name="mute_chat_notifications">Выключить уведомления</string>
+    <string name="common_circles">Круги в Общем</string>
+    <string name="none">Никто</string>
+    <string name="add_caption">Нажмите, чтобы добавить подпись ...</string>
+    <string name="message">Сообщение</string>
+    <string name="conference_call">Конференц-связь</string>
+    <string name="conversation_type">Тип разговора</string>
+    <string name="image">Изображение</string>
+    <string name="video">видео</string>
+    <string name="pdf_file">.pdf</string>
+    <string name="gc_burnallmessages">Ваши вообщения были уничтожены</string>
+    <string name="gc_you_have_left_and_cannot_message">Поскольку вы больше не являетесь членом этой группы Вы не можете отправлять или получать сообщения.</string>
+    <string name="gc_disbanded_and_cannot_message">Вы не можете больше отправлять или получать сообщения в/из эту группу, так как она была расформирована.</string>
+    <string name="gc_removed_and_cannot_message">Вы не можете отправлять или получать сообщения в/из эту группу, так как вы не являетесь больше ее участинком.</string>
+    <string name="group_info_leave_group">Покинуть группу</string>
+    <string name="group_info_title">Информация о группе</string>
+    <string name="group_edit_title">Редактирование группы</string>
+    <string name="group_info_message">Сообщение</string>
+    <string name="group_info_call">Вызов</string>
+    <string name="group_info_view">Посмотреть</string>
+    <string name="group_info_remove">Удалить из группы</string>
+    <string name="login_terms">Подтверждая свою учетную запись, вы принимаете &lt;br&gt;&lt;a href=&quot;https://portal.saltdna.com/static/statements/saltdna/terms.html&quot;&gt;Условия соглашения&lt;/a&gt;</string>
+    <string name="call_outgoing">Исходящий вызов</string>
+    <string name="call_incoming">Входящий вызов</string>
+    <string name="date">Дата</string>
+    <string name="id">ID</string>
+    <string name="participants_title">Участники</string>
+    <string name="mini_fab_message">Сообщение / Групповой чат</string>
+    <string name="mini_fab_call">Вызов/ Конференция</string>
+    <string name="login_invalid_domain">Недопустимое имя домена! </string>
+    <string name="login_empty_passcode">Код не введен! </string>
+        
+    <string name="invite">Пригласить </string>
+    <string name="disband">Расформировать</string>
+    <string name="leave">Покинуть</string>
+    <string name="burn_delete_title">Уничтожить и удалить?</string>
+    <string name="burn_all_my_messages">Уничтожить все мои сообщения...</string>
+    <string name="missed_call">Пропущенный вызов</string>
+    <string name="incoming_call">Входящий вызов</string>
+    <string name="outgoing_call">Исходящий вызов</string>
+    <string name="you_added">"Вы добавили "</string>
+    <string name="group_has_been_disbanded">Группа была распущена</string>
+    <string name="group_chat_name">Имя группы</string>
+    <string name="tap_to_join">Нажмите, чтобы присоединиться</string>
+    <string name="clear_logs">Уничтожить всю историю</string>
+    <string name="you_are_offline">Вы в автономном режиме</string>
+    <string name="no_messages">Нет сообщений</string>
+    <string name="group_admin">Администратор группы</string>
+    <string name="already_invited">Уже приглашен</string>
+    <string name="contact_permission_required">Pазрешение требуется для доступа к контактной информации</string>
+    <string name="no_contact_email">В карточке выбранного контакта не указан e-mail</string>
+    <string name="conference_invite">Приглашение на конференцию</string>
+    <string name="cannot_start_call">Не удается запустить вызов без разрешения RECORD_AUDIO</string>
+    <string name="has_been_disbanded">" был распущен"</string>
+    <string name="yesterday">Вчера</string>
+    <string name="other">Другой</string>
+    <string name="others">"Другие"</string>
+    <string name="version">Версия</string>
+    <string name="build">Релиз</string>
+    <string name="upgrade_upgrade_available">Доступно обновление</string>
+    <string name="upgrade_upgrade_available_details">Обновление доступно для загрузки и установки</string>
+    <string name="upgrade_upgrade_now_option">Обновить сейчас</string>
+    <string name="upgrade_upgrade_not_now_option">Спасибо, но не сейчас</string>
+    <string name="upgrade_current_version">"Текущая версия: "</string>
+    <string name="upgrade_minimum_version">"Минимальная версия: "</string>
+    <string name="upgrade_now">Обновить сейчас</string>
+    <string name="permissions_cannot_start_call">Доступ запрещен для  запустить вызов</string>
+    <string name="permissions_cannot_start_video_call">Доступ запрещен. Невозможно включить видео</string>
+    <string name="group_disbanded">Группа расформирована</string>
+    <string name="no_server_connection">Невозможно подключиться к серверу. Проверьте подключение и повторите попытку</string>
+    <string name="dismiss">Отклонить</string>
+    <string name="reset_pin">Обратитесь к своему администратору, чтобы сбросить PIN-код</string>
+    <string name="offline_group_send">Не удается отправить групповые сообщения в автономном режиме</string>
+    <string name="select_burn_operation">Какие данныенеобходимо уничтожить?</string>
+    <string name="read_by">Прочитано:</string>
+    <string name="delivered_to">Доставлено:</string>
+    <string name="sent_to">Отправлено:</string>
+    <string name="incorrect_passcode">Неверный пароль</string>
+    <string name="limit_reached">Достигнут предел ввода</string>
+    <string name="limit_reached_message">Слишком много неверных попыток ввести пароль. Сейчас приложение будет сброшено.</string>
+    <string name="OK">ОК</string>
+    <string name="attempts_left">Осталось попыток :</string>
+    <string name="pass_wipe_summary">После 10 неправильных попыток ввода PIN-кода, все данные приложения будут уничтожены. Вам необходимо будет заново пройти аутентификацию</string>
+    <string name="reset_app">Сбросить приложение</string>
+    <string name="submit_crashes">Отправить сбои</string>
+    <string name="submit_report">Отправить отчетt</string>
+    <string name="remote_logging">Удаленная регистрация</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="return_to_call">Нажмите, чтобы вернуться к вызову</string>
+    <string name="cant_fetch_circles">Невозможно получить данные о кругах в автономном режиме</string>
+    <string name="cant_fetch_contacts">Не удается найти контакты в автономном режиме</string>
+    <string name="pending_invites">Ожидающие приглашения</string>
+    <string name="pending_invites_description">У вас есть ожидающие приглашения, которые еще не были приняты или отклонены.</string>
+    <string name="invite_successful">Приглашение успешно доставлено</string>
+    <string name="invite_not_successful">Приглашение доставить не удалось. Пожалуйста, повторите попытку</string>
+    <string name="clear_message_logs_confirm_message">Это действие уничтожитисторию всех записей свашего устройства иустройств ваших контактов.Вы уверены, что хотитепродолжить?</string>
+    <string name="maximum_participants_reached">Достигнуто максимальное количество участников</string>
+    <string name="select_participants_selector">Выбрать участника (ов)</string>
+    <string name="invite_participants">Пригласить участников</string>
+    <string name="passcode_forced">Ваш администратор требует использовать PIN-код с этим приложением. Введите 5-значный PIN-код ... </string>
+    <string name="passcode_new">Введите новый 5-значный PIN-код </string>
+    <string name="passcode_new_confirm">Подтвердите свой новый PIN-код</string>
+    <string name="passcode_new_retry">Ваши PIN-коды не совпадают, повторите попытку </string>
+    <string name="please_deselect">Отмените выбор</string>
+    <string name="at">" at "</string>
+    <string name="mute_notifications">Отключить оповещения</string>
+    <string name="users">Пользователи</string>
+    <string name="circles">круги</string>
+    <string name="call_detail_title">Информация о вызове</string>
+    <string name="verify_finger">Проверить с помощью отпечатка пальца</string>
+    <string name="burn_messages">Пригласить нового пользователя</string>
+    <string name="location">Место нахождения</string>
+    <string name="location_send">Отправить местоположение</string>
+    <string name="alias_nickname_optional">кличка (Необязательный)</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="browse_contacts">Просмотр контактов</string>
+    <string name="invite_a_private_user">Пригласить частного пользователя</string>
+    <string name="communicate_with_private_users">Общайтесь с частными пользователями по принципу «один к одному».</string>
+    <string name="email_address">Адрес электронной почты</string>
+    <string name="tap_to_enable">Выключено</string>
+    <string name="pending">В режиме ожидания</string>
+    <string name="or">Или</string>
+    <string name="enable_biometrics">Включить биометрию</string>
+    <string name="no_pending_invites">Нет ожидающих приглашений</string>
+    <string name="received_invites">Полученные приглашения</string>
+    <string name="pin_saved">PIN-код сохранен</string>
+    <string name="valid_address">Экран блокировки должен быть включен на этом устройстве, чтобы использовать аутентификацию по отпечаткам пальцев</string>
+    <string name="havent_entered_name">Вы не ввели новое имя</string>
+    <string name="no_location">К сожалению, у нас пока нет вашего местоположения</string>
+    <string name="your_location">Ваше местоположение</string>
+    <string name="no_fingerprints">На этом устройстве нет сканера отпечатков пальцев</string>
+    <string name="need_lockscreen_enabled">На устройстве должен быть включен экран блокировки, чтобы использовать аутентификацию по отпечаткам пальцев</string>
+    <string name="share_location">Поделитесь своим местоположением</string>
+    <string name="contact_details">Контактная информация</string>
+    <string name="open">Открыто</string>
+    <string name="share">Поделиться</string>
+    <string name="share_file_using">Поделиться файлом, используя...</string>
+    <string name="conversation_call_tones">Звук конференц-связи</string>
+    <string name="refine_location">Перетащите маркер, чтобы уточнить местоположение</string>
+    <string name="file_too_large">Файл слишком большой</string>
+    <string name="no_application">Нет приложения для обработки этого файла</string>
+    <string name="no_file_permission">У вас нет разрешения на отправку этого файла</string>
+
+    <string name="leave_confirm_title">Вы уверены, что хотите уйти?</string>
+    <string name="leave_confirm_message">При покидании группы администратор будет назначен случайным образом. Расформирование группы приведет у исключению из группы всех участников.</string>
+    <string name="icn_created">%1$s создан \'%2$s\'</string>
+    <string name="icn_others_renamed">%1$s переименовал группу в \'%2$s\'</string>
+    <string name="icn_you_renamed">Вы переименовали группу в \'%1$s\'</string>
+    <string name="icn_contacts_joined">%1$s присоединился \'%2$s\'</string>
+    <string name="icn_you_left">Вы покинули группу</string>
+    <string name="icn_you_were_removed">Вас исключили из группы</string>
+    <string name="icn_you_removed">Вы исключили %1$s из группы</string>
+    <string name="icn_members_left">%1$s покинул группу</string>
+    <string name="icn_members_removed">%1$s был исключен из группы</string>
+    <string name="icn_member_removed">%1$s был исключен из группы</string>
+    <string name="icn_screenshot_other_user">Снимок экрана был сделан пользователем %1$s</string>
+    <string name="icn_screenshot_you">Вы сделали снимок экрана</string>
+    <string name="icn_recording">%1$s: Включил запись с экрана</string>
+    <string name="service_suspended">Ваш доступ к приложению был приостановлен. Если вы хотите продолжить использование приложения, обратитесь в службу поддержки</string>
+    <string name="service_suspended_contact_support">Поддержка</string>
+    <string name="installation_out_of_date">Ваша установка устарела. Чтобы продолжить использование приложения, вы должны обновить его до последней версии.</string>
+    <string name="no_invitations">Нет приглашений</string>
+    <string name="refresh">Обновить</string>
+    <string name="revoke">Отозвать</string>
+    <string name="Resend">Отправить</string>
+    <string name="attachment_type_file">Файл</string>
+    <string name="attachment_type_pdf">PDF</string>
+    <string name="contact_unavailable">Контакт недоступен</string>
+    <string name="no_results">Нет результатов</string>
+    <string name="incorrect_time_description">Настройки даты и времени на вашем устройстве работают в ручном режиме, поэтому приложение может работать неправильно. Измените настройки даты и времени. Мы рекомендуем использовать автоматические настройки.</string>
+    <string name="incorrect_time_title">Настройки даты и времени</string>
+    <string name="file_load_failed">Не удалось загрузить файл</string>
+    <string name="last_active_just_now">Прямо сейчас</string>
+    <string name="settings_video_quality">Качество видео</string>
+    <string name="recording">Запись включена</string>
+    <string name="recording_failed">Ошибка записи</string>
+    <string name="send_audio_message">Отправить аудио-сообщение?</string>
+    <string name="sending">Отправка</string>
+    <string name="audio_message_tap">Нажмите и удерживайте иконку микрофона для записи аудио-сообщения</string>
+    <string name="sending_image">Отправка изображения…</string>
+    <string name="attachment_type_audio">Аудио-сообщение</string>
+    <string name="group_message_text_format">%1$s - %2$s</string>
+    <string name="file">файл</string>
+    <string name="download_before_forward">Пожалуйста, скачайте файл перед перед тем, как его переслать</string>
+    <string name="chats_font_size">Размер шрифта</string>
+    <string name="chats_show_time">Показать сообщение Timestamps</string>
+    <string name="chats_title">Чаты</string>
+    <string name="no_broadcast_messages_available_for_this_channel">Для этого канала недоступны широковещательные сообщения</string>
+    <string name="enable_optimisation">Включить оптимизацию</string>
+    <string name="outbound_packet_loss_placeholder">Потери исходящих пакетов: 0.0%</string>
+    <string name="outbound_packet_loss">Потери исходящих пакетов</string>
+    <string name="do_not_ask_again">Не спрашивать снова</string>
+    <string name="enabled">Включено</string>
+    <string name="disabled">Отключено</string>
+    <string name="general">Главное</string>
+    <string name="call_state">Состояние вызова</string>
+    <string name="compress_images">Сжатие изображений</string>
+    <string name="data_usage">Использование данных</string>
+    <string name="broadcast_info">Информация о трансляции</string>
+    <string name="failed_stats">Не удалось найти статистику</string>
+    <string name="no_connection_available">Нет подключения</string>
+    <string name="broadcast_burned">Сообщение в канале было уничтожено</string>
+    <string name="info">Информация</string>
+    <string name="bc_edit">Редактировать</string>
+    <string name="bc_burn">Уничтожить</string>
+    <string name="bc_copy">Копия</string>
+    <string name="bc_burn_post_title">Уничтожить сообщение?</string>
+    <string name="bc_burn_post_message">Сообщение будет уничтожено на  всех устройствах. Вы уверены, что хотите уничтожить сообщение?</string>
+    <string name="title">Заголовок</string>
+    <string name="refresh_stats">Обновление статистики</string>
+    <string name="new_post">Новое сообщение</string>
+    <string name="contact_not_available">Связь с этим пользователем невозможна. Пользователь больше не находится в списке ваших контактов.</string>
+    <string name="information">Информация</string>
+    <string name="announcement">Объявление</string>
+    <string name="warning">Предупреждение</string>
+    <string name="alert">Внимание</string>
+    
+    <string-array name="chat_font_settings">
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string-array name="chat_font_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="forward">Переадресовать</string>
+    <string name="forwarded_broadcast">Переадресованный канал</string>
+    <string name="please_download_attachment">Загрузите вложение</string>
+    <string name="export_chat_history">Экспортировать историю чата</string>
+    <string name="export_send_via">Отправить переписку через</string>
+    <string name="media">Медиа-файлы</string>
+    <string name="recent_media">Полученные медиа-файлы</string>
+    <string name="show_all">Показать все</string>
+    <string name="messages_lowercase">Все сообщения</string>
+    <string name="message_lowercase">Сообщение</string>
+    <string name="your_plural">ваш </string>
+    <string name="your_singular">ваш </string>
+    <string name="terminate_call_dialog_title">Оставить или прекратить вызов?</string>
+    <string name="terminate_call_dialog_msg">Вы хотите завершить вызов для всех?</string>
+    <string name="terminate_call_dialog_term_optn">Завершить вызов</string>
+    <string name="terminate_call_dialog_leave_optn">Выйти из беседы</string>
+    <string name="off">Выключить</string>
+    <string name="on">Включить</string>
+    <string name="auto">Авто</string>
+    <string name="retry">Повторить</string>
+    <string name="broadcast_alerts">Оповещения канала</string>
+    <string name="broadcast_alert_bypass_dnd_request">Для получения уведомлений из канала в постоянном режиме, необходимо разрешение на игнорирование настройки "Не беспокоить"</string>
+    <string name="tap_and_fetch_roster">Нажмите, чтобы очистить и получить список</string>
+    <string name="in_app_pop">Звук в приложении</string>
+    <string name="recv_msg_pop">Звук полученного сообщения</string>
+    <string name="address_book_access">Доступ к адресной книге</string>
+    <string name="microphone_access">Доступ к микрофону</string>
+    <string name="telephone_access">Телефонный доступ</string>
+    <string name="camera_access">Доступ к камере</string>
+    <string name="storage_access">Доступ к хранилищу</string>
+    <string name="location_access">Доступ к местоположению</string>
+    <string name="address_book_access_desc">Чтобы пригласить контакты, %s требуется разрешение для доступа к адресной книге вашего устройства. Это будет использоваться только для того, чтобы вы могли приглашать пользователей, которые уже есть в адресной книге вашего устройства.</string>
+    <string name="microphone_access_desc">Чтобы совершать и принимать телефонные звонки или отправлять голосовые сообщения, %s требуется разрешение для доступа к микрофону вашего устройства. На Android разрешение называется «Запись аудио». Все приложения, имеющие голосовые возможности, должны запрашивать это разрешение.  %s не использует и не будет использовать микрофон устройства для чего-либо, кроме телефонных звонков, голосовых и видео-сообщений. Аудио никогда не будет храниться на нашем сервере.</string>
+    <string name="camera_access_desc">Для того, чтобы делать фотографии с помощью этого приложения, %s требуется разрешение для доступа к вашей камере. Это будет использоваться только для того, чтобы вы могли снимать и отправлять фотографии из приложения.</string>
+    <string name="storage_access_desc">Для просмотра и отправки изображений или файлов, уже сохраненных на вашем устройстве, %s требуется разрешение для доступа к хранилищу устройства.</string>
+    <string name="location_access_desc">Чтобы сообщить ваше местоположение, %s требуется разрешение для доступа к GPS вашего устройства.</string>
+    <string name="telephone_access_desc">Чтобы управлять входящими и исходящими телефонными вызовами и взаимодействием с другими приложениями с поддержкой голосовой связи, %s требуется разрешение для доступа к телефонным функциям вашего устройства.</string>
+    <string name="next">Далее</string>
+    <string name="got_it">Понял!</string>
+    <string name="recently_contacted">Недавно связался</string>
+    <string name="forward_to">Вперед к ...</string>
+    <string name="publish_changes">Опубликовать изменения?</string>
+    <string name="lowest">низший</string>
+    <string name="publish_changes_message">Вы хотите опубликовать изменения, внесенные в это сообщение? Получатели не будут уведомлены о внесенных изменениях.</string>
+    <string name="publish">Публиковать</string>
+    <string name="by">От</string>
+    <string name="message_info">Информация о сообщении</string>
+    <string name="invitations">Приглашения</string>
+    <string name="audio">Аудио</string>
+    <string name="unread_messages">Непрочитанные сообщения</string>
+    <string name="message_id">ID сообщения</string>
+    <string name="bc_title_limit">Максимальная длина заголовка 24 символа</string>
+    <string name="missed_conference_call">Пропущенный Конференц-связь</string>
+    <string name="incoming_conference_call">Входящий Конференц-связь</string>
+    <string name="outgoing_conference_call">Исходящий Конференц-связь</string>
+    <string name="conference_info">Информация о конференциях</string>
+
+    <string name="call_info">Вызовы</string>
+    <string name="tap_for_more_info">Нажмите для получения дополнительной информации</string>
+    <string name="conference_status_incoming">Входящая голосовая конференция</string>
+    <string name="notifications">Уведомления</string>
+    <string name="warning_no_service">Не удается подключиться к службе</string>
+    <string name="try_again_contact_admin">Пожалуйста, повторите попытку позже или обратитесь к администратору.</string>
+    <string name="end_gsm_to_continue">Пожалуйста, завершите активный GSM вызов, чтобы принять новый  вызов</string>
+    <string name="decrypting_from_store">Дешифровка вложения из хранилища. Пожалуйста, подождите.</string>
+<string name="data_saver_warning">Функция Data Saver включена на вашем устройстве и может препятствовать получению сообщений и звонков, пока %s находится в фоновом режиме. Вы можете избежать этого, отключив Data Saver или занеся в белый список %s для неограниченного использования данных.</string>
+    <string name="setting_requires_restart">Требуется перезапустить приложение, чтобы изменения вступили в силу</string>
+
+    <string name="send_to">Отправить...</string>
+    <string name="profile">Профиль</string>
+    <string name="verify_desc">Пожалуйста, укажите домен и код доступа, чтобы подтвердить свой аккаунт</string>
+    <string name="verify">Проверка</string>
+
+    <string name="no_verification_email">Не получили подтверждающего e-mail?</string>
+
+    <string name="introducing_favourite_contacts">Добавтье избранные контакты</string>
+    <string name="introducing_favourite_contacts_desc_1">Теперь вы можете добавить любимые контакты в список, для этого нажмите ⭐️ на странице информации о пользователе.</string>
+    <string name="introducing_favourite_contacts_desc_2">После того, как пользователь был добавлен в Избранное, вы можете увидеть его во вкладке Избранное.</string>
+
+    <string name="notification_new_broadcast_body">В публичном канале есть новое сообщение!</string>
+    <string name="settings_show_device_id">ID устройства</string>
+    <string name="developer_general">Гланые настройки разработчика</string>
+    <string name="app_backup">Резервное копирование приложения</string>
+    <string name="applying_backup">Использование резервной копии ...</string>
+    <string name="auto_backups_enabled">Включено резервное копирование данных</string>
+    <string name="auto_backups_enabled_text">Администратор включил резервное копирование данных приложения. Сообщения из ваших каналов и переписки будут архивироваться в автоматическом режиме каждые 24 часа. Вы также можете вручную создать резервную копию своего контента, зайдя в настройки приложения. Уничтожение текущих данных не влияет на содержимое, для которого ранее было выполнено резервное копирование.</string>
+    <string name="backing_up">Резервное копирование</string>
+    <string name="backing_up_messages">Резервное копирование ваших сообщений ...</string>
+    <string name="backup">Резервная копия</string>
+    <string name="backup_build_failed">Не удалось создать резервную копию. Пожалуйста, попробуйте еще раз.</string>
+    <string name="backup_build_progress_format">Резервное копирование: %1$d из %2$d элементов</string>
+    <string name="backup_button_label">Резервная копия</string>
+    <string name="backup_complete">Резервное копирование завершено</string>
+    <string name="backup_description">Резервное копирование сообщений из ваших каналов и переписки. Каждая резервная копия представляет собой архив всего содержимого приложения, уничтожение данных в приложении в конкретный момент времени не влияет на ранее созданные резервные копии. Вы можете восстановить данные из резервной копии при переустановке приложения.</string>
+    <string name="backup_restore_notification_channel">Уведомления о резервном копировании и восстановлении</string>
+    <string name="backup_size_label">Размер:</string>
+    <string name="backup_time_label">Время:</string>
+    <string name="backup_upload_failed">Не удалось загрузить резервную копию. Пожалуйста, попробуйте еще раз.</string>
+    <string name="backup_upload_progress_format">Загрузка: %1$.2f МБ из %2$.2f МБ (%3$d%%)</string>
+    <string name="broadcast_alert_notification_channel">Уведомления из каналов</string>
+    <string name="call_notification_channel">Уведомления о звонках</string>
+    <string name="confirm_password_hint">Подтвердите пароль</string>
+    <string name="downloading_backup">Загрузка резервной копии...</string>
+    <string name="enter_backup_password">Введите пароль для восстановления резервной копии</string>
+    <string name="enter_backup_password_text">Пожалуйста, введите пароль для восстановления резервной копии.</string>
+    <string name="existing_backups_title">Существующие резервные копии</string>
+    <string name="general_notification_channel">Общие уведомления</string>
+    <string name="get_backup_details_error">Не удалось получить данные последней резервной копии</string>
+    <string name="group_admins_update_failed">Не удалось сделать пользователя администратором. Пожалуйста, попробуйте еще раз.</string>
+    <string name="group_info_make_admin">Сделать администратором</string>
+    <string name="group_updated">Пользователь %s обновил группу</string>
+    <string name="incoming_call_notification_channel">Уведомления о входящих звонках</string>
+    <string name="last_backup">Последняя резервная копия</string>
+    <string name="manual_backups_enabled">Ручное резервное копирование включено</string>
+    <string name="manual_backups_enabled_text"></string>
+    <string name="message_notification_channel">Уведомления о сообщениях</string>
+    <string name="ongoing_call_notification_channel">Непрерывные уведомления о вызовах</string>
+    <string name="override_do_not_disturb">Не принимать во внимание режим \"Не беспокоить\"</string>
+    <string name="password_and_confirmation_dont_match">Введенные пароли не совпадают</string>
+    <string name="password_hint">Пароль</string>
+    <string name="password_required">Пожалуйста, введите пароль</string>
+    <string name="reset_password">Сбросить пароль</string>
+    <string name="reset_password_confirmation_message">Если вы измените пароль к резервной копии ваших данных, то вы больше не сможете получить доступ к предыдущим резервным копиям. Вы уверены, что хотите продолжить?</string>
+    <string name="restore_backup_intro">Мы обнаружили резервную копию, связанную с этим псевдонимом. Хотите восстановить эту резервную копию на свое устройство? Пропуск этого шага будет означать, что существующая резервная копия будет перезаписана и вы не будете иметь к ней доступ.</string>
+    <string name="restore_backup_title">Восстановить резервную копию?</string>
+    <string name="restoring_backup">Восстановление резервной копии</string>
+    <string name="restoring_backup_decryption_error">При расшифровке резервной копии произошла ошибка. Убедитесь, что вы указали верный пароль.</string>
+    <string name="restoring_backup_error">При восстановлении резервной копии произошла ошибка. Убедитесь, что у вас есть подключение к сети Интернет, а также, что вы указали верный пароль.</string>
+    <string name="restoring_backup_notification_text">Восстановление резервной копии...</string>
+    <string name="restoring_backup_text">Пожалуйста, подождите, пока мы восстановим вашу резервную копию.</string>
+    <string name="set_backup_password">Установить пароль на резервную копию</string>
+    <string name="set_backup_password_text">Любые резервные копии, которые вы делаете, требуют пароль для восстановления. Если этот пароль будет изменен в будущем, вы не сможете получить доступ к любым предыдущим резервным копиям.</string>
+    <string name="set_password">Установить пароль</string>
+    <string name="skip">Пропустить</string>
+    <string name="skip_restoration_message">Если вы пропустите восстановление, вы не сможете восстановить любые предыдущие резервные копии. Все будущие резервные копии будут перезаписывать существующие.</string>
+    <string name="skip_restoration_title">Пропустить восстановление?</string>
+    <string name="uploading_backup">Загрузка вашей резервной копии...</string>
+    <string name="utc_with_brackets">(UTC)</string>
+    <string name="you_updated_group">Вы обновили группу</string>
+    <string name="restore_backup">Восстановление резервной копии</string>
+    <string name="no_apps_to_open_file">На устройстве нет приложения для открытия фалов такого типа.</string>
+
+    <string name="unknown">неизвестный</string>
+
+    <string name="password_request_title">PDF защищенный паролем</string>
+    <string name="password_request_message">Этот PDF защищен паролем. Пожалуйста, введите пароль для просмотра файла</string>
+    <string name="cannot_open">Невозможно открыть вложение во время записи аудио</string>
+
+    <string name="select_messages">Выберите сообщение</string>
+    <string name="cant_send_message_while_multiselect_enabled">Не могу отправить сообщение во время использования множественного выбора.</string>
+    <string name="enter_new_duress_pin">Введите свой новый PIN-код принуждения</string>
+    <string name="duress_cannot_match_pass">PIN-код Duress не может быть таким же, как ваш текущий пароль</string>
+    <string name="confirm_duress_pin">Пожалуйста, подтвердите свой новый PIN-код</string>
+    <string name="profile_new_domain_detected">Обнаружен новый домен</string>
+    <string name="profile_dialog_message">О том, чтобы изменить значок приложения и применить пользовательские темы. Вам нужно перезапустить приложение, когда это произойдет. Нажмите OK, когда готов</string>
+
+    <string name="update">Обновление</string>
+    <string name="busy">Занят</string>
+    <string name="biometric_prompt_title">Биометрическая аутентификация</string>
+    <string name="biometric_prompt_subtitle">Разблокировка с помощью биометрических учетных данных</string>
+    <string name="biometric_prompt_negative_button_text">Использование PIN-кода</string>
+    <string name="conference_status_invited">Пригласил</string>
+
+    <string name="forwarded_your_message">%s переадещенное ваше сообщение</string>
+    <string name="forwarded_a_message">Вы переадресовали сообщение</string>
+
+</resources>
